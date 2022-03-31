@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7972097711466761441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 281371391121851913, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_Name
+      value: Slime Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 821547316822896705, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6507300522526990362, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+--- !u!1 &7873758259208309480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 281371391121851913, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+  m_PrefabInstance: {fileID: 7972097711466761441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &4874984604305703587 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 3244271829892566594, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+  m_PrefabInstance: {fileID: 7972097711466761441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4340631760597320230 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5953636901062758087, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+  m_PrefabInstance: {fileID: 7972097711466761441}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873758259208309480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a30afb6f353c88418252b02c6a4da84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4830082129977621184 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 3289161247528416801, guid: 7d843b0f73bcf894d9bf7f7b7b9a4117, type: 3}
+  m_PrefabInstance: {fileID: 7972097711466761441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9045130109761162119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873758259208309480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d09ef8f63cc9e41be8f34c32a562c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rigidbody: {fileID: 4874984604305703587}
+  BoxCollider: {fileID: 4830082129977621184}
+  SizeController: {fileID: 4340631760597320230}
+  FruitInsideSlime: []
+  FruitWithinSlimeRange: []
+  SlimeSeeFruitDistance: 4
+  FruitLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  Age: 0
+  LifeSpan: 45
+  AvailableStates:
+  - {fileID: 11400000, guid: 6ec05960e417ce9439bb8959b921fb16, type: 2}
+  - {fileID: 11400000, guid: 41121aba46e3a4643b6b46ec1b83ddfc, type: 2}
+  - {fileID: 11400000, guid: c5523288c1212c64faf906e9f7eb89a9, type: 2}
+  - {fileID: 11400000, guid: 28eb98145f4ae4540b935ac654a22a81, type: 2}
